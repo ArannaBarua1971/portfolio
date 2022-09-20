@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aranna Barua | Porfolio</title>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Oleo+Script:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- main css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navigation section part -->
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                ArannaBarua
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_bar">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div id="menu_bar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#navigation" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- // navigation section part -->
+
+    <!-- banner section part -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner_content col-lg-10">
+                        <h2>Hello , I am <small>Aranna Barua</small></h2>
+                        <h3>I am a <span>Programmer</span></h3>
+                        <p>Lorem ipsum is placeholder text commonly
+                            used in the graphic, print, and publishing industries for
+                            previewing layouts and visual mockups.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner_img">
+                        <img class="img-fluid" src="img/banner.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // banner section part -->
+
+    <!-- about section part -->
+    <section id="about" class="primary_background">
+        <div class="container">
+            <div class="primary_header_part d-flex justify-content-end">
+                <h2>ABOUT <span>M</span>e</h2>
+            </div>
+            <div class="anout_content_part">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about_thumb">
+                            <img class="img-fluid" src="img/about.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about_content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa modi eum impedit iusto
+                                quae, ratione molestias a fugiat ipsam, praesentium fuga repudiandae tempore doloremque
+                                consequatur, omnis eveniet autem inventore ullam?
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptas minus
+                                perspiciatis nisi qui. Quaerat provident earum incidunt dicta mollitia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about_other_info">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="download_cv_part">
+                            <button>Download CV</button>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="information">
+                            <div class="Education info" onclick="about('.Education')">
+                                <h4>Education</h4>
+                                <div class="more_info">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, commodi laborum
+                                    dolor corrupti aspernatur unde sint mollitia tempore minus dolorum sed? Nisi
+                                    repellat architecto autem unde ut, incidunt ab similique.
+                                </div>
+                            </div>
+                            <div class="interest info" onclick="about('.interest')">
+                                <h4>My interest</h4>
+                                <div class="more_info">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, commodi laborum
+                                    dolor corrupti aspernatur unde sint mollitia tempore minus dolorum sed? Nisi
+                                    repellat architecto autem unde ut, incidunt ab similique.
+                                </div>
+                            </div>
+                            <div class="hobbies info" onclick="about('.hobbies')">
+                                <h4>My hobbies</h4>
+                                <div class="more_info">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, commodi laborum
+                                    dolor corrupti aspernatur unde sint mollitia tempore minus dolorum sed? Nisi
+                                    repellat architecto autem unde ut, incidunt ab similique.
+                                </div>
+                            </div>
+                            <div class="otherinfo info" onclick="about('.otherinfo')">
+                                <h4>Othef info</h4>
+                                <div class="more_info">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, commodi laborum
+                                    dolor corrupti aspernatur unde sint mollitia tempore minus dolorum sed? Nisi
+                                    repellat architecto autem unde ut, incidunt ab similique.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // about section part -->
+
+    <!-- skill section part -->
+    <section id="skills" class="secondary_background">
+        <div class="container">
+            <div class="secondary_header_part">
+                <h2>SKILL<span>S</span></h2>
+            </div>
+            <div class="skill_item_part">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="skill_item">
+                            <div class="skill_item_content d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill_item_track">
+                                <div class="skill_item_bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <div class="skill_item_content d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill_item_track">
+                                <div class="skill_item_bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <div class="skill_item_content d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill_item_track">
+                                <div class="skill_item_bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="skill_item">
+                            <div class="skill_item_content d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill_item_track">
+                                <div class="skill_item_bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <div class="skill_item_content d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill_item_track">
+                                <div class="skill_item_bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <div class="skill_item_content d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill_item_track">
+                                <div class="skill_item_bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // skill section part -->
+
+    <!-- projects section part -->
+    <section id="projects" class="primary_background">
+        <div class="container">
+            <div class="primary_header_part">
+                <h2>PROJET<span>S</span></h2>
+            </div>
+            <div class="project_item_part">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="project_item">
+                            <img class="img-fluid" src="img/project.jpg" alt="">
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquid beatae expedita vel incidunt
+                                nulla quaerat explicabo, .</p>
+                            <a href="#">Live Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="show_more_btn d-flex justify-content-center">
+                <a href="#">Show More</a>
+            </div>
+        </div>
+    </section>
+    <!-- // projects section part -->
+
+    <!-- contace section part -->
+    <section id="contact">
+        <div class="container">
+            <div class="secondary_header_part">
+                <h2>CONTACT <span>M</span> </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </section>
+    <!-- // contace section part -->
+
+
+
+    <!-- jquery js link -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main js link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
